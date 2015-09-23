@@ -1,0 +1,1 @@
+This is a presentation about the Vistaprint Studo Team's hubot, StudBot
