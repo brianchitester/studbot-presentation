@@ -68,35 +68,57 @@
 						<h1>Local setup</h1>
 						<p>Use npm to install the following packages globally</p>
 						<ul>
-							<li>Yeoman</li>
-							<li>Coffeescript</li>
+							<li><a href="http://yeoman.io/">Yeoman</a></li>
+							<li><a href="http://coffeescript.org/">Coffeescript</a></li>
 							<li>Hubot generator for Yeoman</li>
 						</ul>
-						<p><code>npm install -g yo coffee-script generator-hubot</code></p>
+						<pre><code data-trim contenteditable style="font-size: 18px;">npm install -g yo coffee-script generator-hubot</code></pre>
 					</section>
 					<section>
 						<h2>Clone the hubot repo and install packages</h2>
-						<p>
-							<code>
-								git clone https://github.com/github/hubot.git
-								cd hubot
-								npm install
+						<pre>
+							<code data-trim contenteditable style="font-size: 18px;">
+git clone https://github.com/github/hubot.git
+cd hubot
+npm install
 							</code>
-						</p>
+						</pre>
 						<h2>Start Hubot</h2>
-						<p><code>bin/hubot</code></p>
+						<pre><code data-trim contenteditable style="font-size: 18px;">bin/hubot</code></pre>
 						<h2>Talk to your bot</h2>
+						<pre><code data-trim contenteditable style="font-size: 18px;">
+Hubot> sup StudBot
+sup
+						</code></pre>
 					</section>
 				</section>
 				<section>
 					<h2>Adding external scripts</h2>
+					<h3>Three sources for loading scripts</h3>
+					<ul>
+						<li>automatically bundled scripts in <code>scripts/</code></li>
+						<li>community scripts in the <code>hubot-scripts</code> npm package</li>
+						<li>scripts loaded from external npm packages specified in <code>external-scripts.json</code></li>
+					</ul>
+					<h4>Find scripts by running <code>npm search hubot-scripts &lt;your-search-term&gt;</code></h4>
 				</section>
 				<section>
 					<h2>Writing your own scripts</h2>
-					<p>Remember, coffeescripts are whitespace sensitive</p>
+					<p><small>Full scripting docs <a href="https://github.com/github/hubot/blob/master/docs/scripting.md">here</a></small></p>
 				</section>
 				<section>
 					<h2>Contributing to StudBot</h2>
+					<h3>Visit the StudBot GitHub repo</h3>
+					<ul>
+						<li>submit an issue or feature request</li>
+						<li>resolve an issue</li>
+						<li>become a colaborator and add whatever you want</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Thanks to Christina for giving life to StudBot</h2>
+					<h2>Thanks to Tommy for tons of Hubot info</h2>
+					<h2>Thanks to the contributors making StudBot more handsome every day</h2>
 				</section>
 			</div>
 		</div>
